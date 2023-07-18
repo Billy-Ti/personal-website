@@ -1,0 +1,274 @@
+/* Global css  */
+body {
+    line-height: 1.5;
+    background-color: #000;
+    font-family: "Bruno Ace SC", "sans-serif";
+}
+
+a {
+    text-decoration: none;
+    color: #D1D1D1;
+}
+
+.container {
+    max-width: 1296px;
+    margin: 0 auto;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-column {
+    flex-direction: column;
+}
+
+.d-flex-sb {
+    justify-content: space-between;
+}
+
+.d-align-center {
+    align-items: center;
+}
+
+.d-inline-block {
+    display: inline-block;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-green {
+    color: #00FFA3;
+}
+
+.mb-16 {
+    margin-bottom: 16px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.mb-36 {
+    margin-bottom: 36px;
+}
+
+.mb-24 {
+    margin-bottom: 24px;
+}
+
+.mb-72 {
+    margin-bottom: 72px;
+}
+
+.mb-160 {
+    margin-bottom: 160px;
+}
+
+.mr-16 {
+    margin-right: 16px;
+}
+
+.mr-20 {
+    margin-right: 20px;
+}
+
+.mr-24 {
+    margin-right: 24px;
+}
+
+.ml-16 {
+    margin-right: 16px;
+}
+
+.ml-24 {
+    margin-left: 24px;
+}
+
+.ml-auto {
+    margin: 0 auto;
+}
+
+.py-40 {
+    padding: 40px 0;
+}
+
+.py-160 {
+    padding: 160px 0;
+}
+
+.fz-20 {
+    font-size: 20px;
+}
+
+.fz-24 {
+    font-size: 24px;
+}
+
+.fz-64 {
+    font-size: 64px;
+}
+
+.fz-128 {
+    font-size: 128px;
+}
+
+/* header  */
+.header li {
+    padding: 40px 0 24px 0;
+}
+
+.herder li:nth-child(3) {
+    padding: 40px 0 0 0;
+}
+
+.header a {
+    transition: all .5s;
+
+}
+
+.header a:hover {
+    box-shadow: 0 0 16px #00FFA3;
+}
+
+/* personalInfo  */
+.personalInfo {
+    padding: 72px 0;
+}
+
+.contact-btn {
+    padding: 12px 24px 12px 24px;
+    font-family: "Bruno Ace SC", "sans-serif";
+    border-radius: 32px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.contact-btn:hover {
+    box-shadow: 0 0 32px #00FFA3;
+}
+
+.contact-btn img {
+    padding-left: 4px;
+}
+
+/* introduction  */
+.introduction {
+    background: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true') center center / cover no-repeat;
+
+}
+
+.intro-content {
+    max-width: 526px;
+}
+
+.intro-pic {
+    max-width: 746px;
+}
+
+.intro-pic li {
+    margin-left: 24px;
+}
+
+
+/* aboutMe  */
+
+.about-skills {
+    max-width: 636px;
+    padding: 206px 0;
+    flex-wrap: wrap;
+    color: #15161D;
+}
+
+.about-skills li {
+    max-width: 306px;
+    padding: 16px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 4px 4px 4px #00000014;
+}
+
+.about-skills li:nth-child(odd) {
+    margin-right: 24px;
+}
+
+.about-description {
+    max-width: 526px;
+    margin-left: 134px;
+}
+
+.about-description p {
+    color: #15161D;
+}
+
+/* contactMe  */
+
+.contactMe {
+    background: linear-gradient(#050014 100%, #01021EE3 89%);
+    padding: 96px 0;
+}
+
+.contact img {
+    width: 100px;
+    height: 100px;
+}
+
+.contact-link {
+    max-width: 526px;
+}
+
+.contact-link li {
+    margin-left: 20px;
+}
+
+.contact-link li img {
+    width: 162px;
+    height: 162px;
+    border-radius: 40px;
+}
+
+/* box-shadow 第四個值。控制陰影的尺寸，使陰影不必要和元素有相同的大小。這個值是正的話會同時向四個邊增加同一個長度，如果是負值則會同時減少長度 */
+.contact-link li img:hover {
+    box-shadow: 0 0 16px 3px #9094FFE5;
+}
+
+/* myProject  */
+
+.myProject-title {
+    max-width: 746px;
+    margin-left: auto;
+}
+
+.myProject-btn {
+    background-color: #000;
+    color: #fff;
+    font-family: "Bruno Ace SC", "sans-serif";
+    padding: 12px 24px;
+    border-radius: 32px;
+    width: 185px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.myProject-btn:hover {
+    background-color: #fff;
+    color: #000;
+    border: 3px solid gray;
+}
